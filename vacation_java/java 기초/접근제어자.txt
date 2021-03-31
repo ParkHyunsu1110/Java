@@ -1,0 +1,7 @@
+get/set : 정보 은닉의 특성 이용, private형으로 구현, read/write를 get/set메소드를 통해 처리하도록 구현
+private : 접근제어자의 한 종류이다 => 변수, 매소드, 클래스 선언시 사용되는것, 접근을 제한하는 역할,
+	선언된 데이터를 외부로부터 보호하기 위한 것,  생략이 가능하며, 생략시 default를 의미
+public, private, protected, default까지 4개가 존재.
+public : 모든 접근 가능, 재한이 없다.
+private : 같은 클래스 내에서만 접근 가능
+protected : 동일 패키지에 속하는 클래스와 하위 클래스관계에서 접근 가능
